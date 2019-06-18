@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class UpdateProjectTask extends Component {
+ class UpdateProjectTask extends Component {
     render() {
         return (
             <div className="addProjectTask">
@@ -35,3 +35,4 @@ export default class UpdateProjectTask extends Component {
         )
     }
 }
+export default UpdateProjectTask;
